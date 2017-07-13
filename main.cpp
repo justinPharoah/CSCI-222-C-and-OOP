@@ -9,11 +9,9 @@
  */
 
 #include <iostream>
+#include "game2.h"
+#include "hand.h"
 #include <fstream>
-#include "card.h"
-#include "deck.h"
-#include "game1.h"
-
 #include "stdlib.h"
 #include "time.h"
 
@@ -21,19 +19,20 @@ using namespace std;
 ofstream csis;
 
 int main() {
-    Game1 game(10, 10000);
+    Game2 game(10, 10000);
 
-    csis.open("csis1.txt");
+    csis.open("csis2.txt");
 
     srand((unsigned) time(NULL));
 
-    for (int t = 0; t < game.trialCount; t++) {
-        for (int i = 1; i <= game.handsToDeal; i++) {
-            game.dealHand();
-            game.typeOfHand(t);
-            game.cardsToDeck();
+    for (int i = 0; i < game.trialCount; i++) {
+        for (int j = 1; j <= game.handsToDeal; j++) {
+            game.hand.dealHand(game.deck);
+            game.typeOfHand(i);
+            game.hand.cardsToDeck(game.deck);
         }
-    }    game.generateData();
+    }
+    game.generateData();
 
     csis.close();
 }
