@@ -1,0 +1,54 @@
+Justin,
+
+Here's the correct string lab output that you missed:
+
+
+4. Testing S4: String one arg (int) ctor.
+
+     ""     10
+
+
+6. Testing S6: String two arg (char, int) ctor.
+
+     "**********"     10
+
+14. Testing S14: Overloaded subscript operator.
+
+OUT OF RANGE ERROR
+OUT OF RANGE ERROR
+     "D,,!jt!gvo/"     11
+
+
+
+
+16. Testing S16, T16, U16, V16, W16, X16, Y16, Z16: Increment and decrement operators.
+
+     "BCD"     3
+     "BCD"     3
+     "BCD"     3
+     "ABC"     3
+     "@AB"     3
+     "@AB"     3
+     "@AB"     3
+     "ABC"     3
+
+19. Testing S19, T19, U19: ReverseString class.
+
+     "Computer"     8
+     "retupmoC"     8
+     "Computer"     8
+
+
+20. Testing S20, T20, U20: CaseString class.
+
+     "BaLLooN"     7
+BALLOON     balloon
+     "BaLLooN"     7
+BALLOON     balloon
+     "BaLLooN"     7
+BALLOON     balloon
+
+
+Grade: 7/10
+
+Richard Stegman
