@@ -1,0 +1,11 @@
+Competitors by lane are:
+Name: EmmyLou Harris     Lane: 1    Time: 12.0
+Name: Nanci Griffith     Lane: 2    Time: 12.8
+Name: Bonnie Raitt       Lane: 3    Time: 11.0
+Name: Joni Mitchell      Lane: 4    Time: 10.3
+
+Rankings by finish are:
+Name: Joni Mitchell      Lane: 4    Time: 10.3
+Name: Bonnie Raitt       Lane: 3    Time: 11.0
+Name: EmmyLou Harris     Lane: 1    Time: 12.0
+Name: Nanci Griffith     Lane: 2    Time: 12.8
