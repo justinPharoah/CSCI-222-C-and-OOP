@@ -1,0 +1,7 @@
+Justin,
+
+Your polymorphism lab is very well done. However, you did not properly delete your holding objects. You must iterate through the array and delete each object. Also, your virtual destructors are not being implemented.
+
+Grade: 8/10
+
+Richard Stegman
