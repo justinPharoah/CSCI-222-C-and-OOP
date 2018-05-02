@@ -1,0 +1,7 @@
+Justin,
+
+Your IntArray lab is not showing the correct output.
+
+Grade: 4/10
+
+Richard Stegman
